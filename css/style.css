@@ -1,0 +1,139 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: #393b43;
+    color: #FFFFFF;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    background-color: #393b43;
+}
+#navbar-list{
+    padding: 0;
+    position: relative;
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;*/
+}
+#navbar {
+    border: 2px solid #666;
+    padding: 0%;
+}
+.box{
+    text-align: center;
+    display: inline;
+    font-size:x-large;
+    background-color: #393B43;
+    border: solid 1px #666666;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.box a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#title{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+}
+
+#portfolio-img{
+    position: relative;
+    text-align: center;
+}
+header div img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+#header-text{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+footer{
+    margin-top: 2%;
+}
+#mail{
+    text-align: center;
+}
+#social{
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+.links{
+    display: inline;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.links a{
+    text-decoration: none;
+}
+#info{
+    text-align: center;
+}
+
+/*Contacto*/
+#title-contacto{
+    text-align: left;
+}
+#content-contacto{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 845px;
+    text-align: left;
+}
+.form-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#form-title{
+    font-size: 28px;
+}
+#form-sub{
+    font-size: 20px;
+}
+#form-desc{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.form-input{
+    width: 35%;
+}
+#form-button{
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+}
+/*Info*/
+#title-info{
+    text-align: left;
+}
+#content-info{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#info-img{
+    height: 30em;
+}
+#title-intro{
+    text-align: left;
+}
+

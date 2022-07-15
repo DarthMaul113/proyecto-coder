@@ -4,66 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./info.html">Info</a></li>
-            <li><a href="./galeria.html">Galería</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./cv.html">Curriculum</a></li>
+    <nav class="container" id="navbar">
+        <ul id="navbar-list" style="list-style: none;">
+            <li class="box" id="box__incio"><a href="../index.html">Inicio</a></li>
+            <li class="box" id="box__info"><a href="../pages/info.html">Info</a></li>
+            <li class="box" id="box__gal"><a href="../pages/galeria.html">Galería</a></li>
+            <li class="box" id="box__cont"><a href="#">Contacto</a></li>
+            <li class="box" id="box__cv"><a href="../pages/cv.html">Curriculum</a></li>
         </ul>
     </nav>
-    <header>
-        <div>
-            <h2>Formulario de Contacto</h2>
+    <header id="site-header" class="container">
+        <div id="title-contacto">
+            <h1>Formulario de Contacto</h1>
         </div>
     </header>
     <main>
-        <div>
-            <form action="post"></form>
+        <div id="content-contacto">
+            <img src="../img/cacho.png" alt="image not supported">
+            <div>
+                <p class="form-text" id="form-title">Formulario de contacto</p>
+                <p class="form-text" id="form-sub">Describeme tu consulta</p>
+                <p class="form-text" id="form-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil quos officia magni nam cumque rem quas itaque saepe porro!</p>
+            </div>
+            <form action="post" id="form-contacto"></form>
             <fieldset>
                 <legend>Ingresa tus datos</legend>
                 <p>
-                    <label>Nombre:
-                        <input type="text" name="nombre" placeholder="Nicolás" required>
-                    </label>
+                    <label>Nombre:</label><br>
+                    <input class="form-input" type="text" name="nombre" placeholder="Nicolás" required>
                 </p>
                 <p>
-                    <label>Apellido:
-                        <input type="text" name="apellido" placeholder="Torres" required>
-                    </label>
+                    <label>Apellido:</label><br>
+                    <input class="form-input" type="text" name="apellido" placeholder="Torres" required>
                 </p>
                 <p>
-                    <label>Teléfono:
-                        <input type="tel" name="telefono" required>
-                    </label>
+                    <label>Teléfono:</label><br>
+                    <input class="form-input" type="tel" name="telefono" required>
                 </p>
                 <p>
-                    <label>Correo:
-                        <input type="email" name="correo" placeholder="ejemplo@ejemplo.com" required>
-                    </label>
+                    <label>Correo:</label><br>
+                    <input class="form-input" type="email" name="correo" placeholder="ejemplo@ejemplo.com" required>
                 </p>
             </fieldset>
-
+            <button id="form-button">Enviar</button>
         </div>
     </main>
     <footer>
         <div>
-            <div>
-                <div>
+            <div class="container">
+                <div id="mail">
                     <a href="mailto:contacto@contacto.com" title="Correo">contacto@contacto.com</a>
                 </div>
-                <ul class="links">
-                    <li><a href="https://github.com">Github</a></li>
-                    <li><a href="https://twitter.com">Twitter</a></li>
-                    <li><a href="https://plus.google.com">Google</a></li>
-                    <li><a href="https://www.facebook.com">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com">Linkedin</a></li>
+                <ul id="social">
+                    <li class="links"><a href="https://github.com">Github</a></li>
+                    <li class="links"><a href="https://twitter.com">Twitter</a></li>
+                    <li class="links"><a href="https://plus.google.com">Google</a></li>
+                    <li class="links"><a href="https://www.facebook.com">Facebook</a></li>
+                    <li class="links"><a href="https://www.linkedin.com">Linkedin</a></li>
                 </ul>
-                <div class="info">
+                <div id="info">
                     <p>© 2022 Cristóbal Sánchez</p>
                 </div>
             </div>

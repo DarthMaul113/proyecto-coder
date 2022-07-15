@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <title>Galeria</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./info.html">Info</a></li>
-            <li><a href="./galeria.html">Galería</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./cv.html">Curriculum</a></li>
+    <nav class="container" id="navbar">
+        <ul id="navbar-list" style="list-style: none;">
+            <li class="box" id="box__incio"><a href="../index.html">Inicio</a></li>
+            <li class="box" id="box__info"><a href="../pages/info.html">Info</a></li>
+            <li class="box" id="box__gal"><a href="#">Galería</a></li>
+            <li class="box" id="box__cont"><a href="../pages/contacto.html">Contacto</a></li>
+            <li class="box" id="box__cv"><a href="../pages/cv.html">Curriculum</a></li>
         </ul>
     </nav>
     <header>
@@ -21,23 +25,23 @@
     </header>
     <main>
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EE-xtCF3T94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style="text-align: center; font-size:xx-large">Aún en cosntrucción (no se me ocurre como hacer el carousel sin uso de alguna herramienta o libreria de estilo)</p>
         </div>
     </main>
     <footer>
         <div>
-            <div>
-                <div>
+            <div class="container">
+                <div id="mail">
                     <a href="mailto:contacto@contacto.com" title="Correo">contacto@contacto.com</a>
                 </div>
-                <ul class="links">
-                    <li><a href="https://github.com">Github</a></li>
-                    <li><a href="https://twitter.com">Twitter</a></li>
-                    <li><a href="https://plus.google.com">Google</a></li>
-                    <li><a href="https://www.facebook.com">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com">Linkedin</a></li>
+                <ul id="social">
+                    <li class="links"><a href="https://github.com">Github</a></li>
+                    <li class="links"><a href="https://twitter.com">Twitter</a></li>
+                    <li class="links"><a href="https://plus.google.com">Google</a></li>
+                    <li class="links"><a href="https://www.facebook.com">Facebook</a></li>
+                    <li class="links"><a href="https://www.linkedin.com">Linkedin</a></li>
                 </ul>
-                <div class="info">
+                <div id="info">
                     <p>© 2022 Cristóbal Sánchez</p>
                 </div>
             </div>
