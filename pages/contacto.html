@@ -26,53 +26,49 @@
         </div>
     </header>
     <main>
-        <div id="content-contacto">
-            <img src="../img/cacho.png" alt="image not supported">
-            <div>
+        <div id="content-contacto" class="container">
+            <img class="img-contacto" src="../img/cacho.png" alt="image not supported" width="400" height="600">
+            <div class="form-text">
                 <p class="form-text" id="form-title">Formulario de contacto</p>
                 <p class="form-text" id="form-sub">Describeme tu consulta</p>
                 <p class="form-text" id="form-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil quos officia magni nam cumque rem quas itaque saepe porro!</p>
             </div>
             <form action="post" id="form-contacto"></form>
-            <fieldset>
+            <fieldset class="form-fieldset">
                 <legend>Ingresa tus datos</legend>
                 <p>
-                    <label>Nombre:</label><br>
+                    <label class="form-label">Nombre:</label><br>
                     <input class="form-input" type="text" name="nombre" placeholder="Nicolás" required>
                 </p>
                 <p>
-                    <label>Apellido:</label><br>
+                    <label class="form-label">Apellido:</label><br>
                     <input class="form-input" type="text" name="apellido" placeholder="Torres" required>
                 </p>
                 <p>
-                    <label>Teléfono:</label><br>
+                    <label class="form-label">Teléfono:</label><br>
                     <input class="form-input" type="tel" name="telefono" required>
                 </p>
                 <p>
-                    <label>Correo:</label><br>
+                    <label class="form-label">Correo:</label><br>
                     <input class="form-input" type="email" name="correo" placeholder="ejemplo@ejemplo.com" required>
                 </p>
             </fieldset>
             <button id="form-button">Enviar</button>
         </div>
     </main>
-    <footer>
-        <div>
-            <div class="container">
-                <div id="mail">
-                    <a href="mailto:contacto@contacto.com" title="Correo">contacto@contacto.com</a>
-                </div>
-                <ul id="social">
-                    <li class="links"><a href="https://github.com">Github</a></li>
-                    <li class="links"><a href="https://twitter.com">Twitter</a></li>
-                    <li class="links"><a href="https://plus.google.com">Google</a></li>
-                    <li class="links"><a href="https://www.facebook.com">Facebook</a></li>
-                    <li class="links"><a href="https://www.linkedin.com">Linkedin</a></li>
-                </ul>
-                <div id="info">
-                    <p>© 2022 Cristóbal Sánchez</p>
-                </div>
-            </div>
+    <footer class="footer-grid">
+        <ul id="social">
+            <li class="links"><a href="https://github.com">Github</a></li>
+            <li class="links"><a href="https://twitter.com">Twitter</a></li>
+            <li class="links"><a href="https://plus.google.com">Google</a></li>
+            <li class="links"><a href="https://www.facebook.com">Facebook</a></li>
+            <li class="links"><a href="https://www.linkedin.com">Linkedin</a></li>
+        </ul>
+        <div id="mail">
+            <a href="mailto:contacto@contacto.com" title="Correo">contacto@contacto.com</a>
+        </div>
+        <div id="info">
+            <p>© 2022 Cristóbal Sánchez</p>
         </div>
     </footer>
 </body>

@@ -52,7 +52,6 @@
     grid-template-areas:
         "site-header site-header"
         "index-img header-text";
-    grid-column-gap: 10%;
     align-items: center;
     justify-content: center;
 }
@@ -70,7 +69,7 @@ h3 {
     display: flex;
     align-items: center;
     object-fit: cover;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     grid-area: index-img;
     border-radius: 50%;
@@ -141,12 +140,23 @@ footer {
 #content-contacto {
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 845px;
+    display: flex;
+    align-content: center;
+    align-items: center;
     text-align: left;
 }
 
+.img-contacto {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-fieldset {
+    width: 100%;
+}
+
 .form-text {
+    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -162,10 +172,16 @@ footer {
 #form-desc {
     font-size: 16px;
     margin-bottom: 5px;
+    text-align: justify;
+}
+
+.form-label {
+    margin-left: 3%;
 }
 
 .form-input {
     width: 35%;
+    margin-left: 5%;
 }
 
 #form-button {
@@ -186,7 +202,6 @@ footer {
         "content-p info-img"
         "title-intro title-intro"
         "info-video info-video";
-    grid-column-gap: 10%;
     align-items: center;
     justify-content: center;
 }
@@ -197,8 +212,9 @@ footer {
 
 #info-img {
     grid-area: info-img;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    margin-left: 15%;
 }
 
 #content-p {
@@ -243,9 +259,19 @@ footer {
     }
 
     #index-img {
-        width: 100%;
+        display: flex;
+        justify-self: center;
+        max-width: 100%;
         height: auto;
-        border-radius: 0%;
+        grid-area: index-img;
+    }
+
+    #info-img {
+        display: flex;
+        justify-self: center;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .grid {
@@ -277,4 +303,12 @@ footer {
         font-size: small;
     }
 
+}
+
+/*Tablet Responsive*/
+
+@media (min-width: 768px) and (max-width:1023px) {
+    * {
+        -webkit-text-size-adjust: auto;
+    }
 }
